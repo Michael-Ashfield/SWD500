@@ -1,21 +1,19 @@
 <template>
     <div id="app">
       <vue-particles
-        color="#000000"
+        color="#dedede"
         :particleOpacity="0.7"
-        :particlesNumber="60"
-        shapeType="polygon"
+        :particlesNumber="80"
+        shapeType="square"
         :particleSize="4"
-        linesColor="#000000"
-        :linesWidth="0.6"
+        linesColor="#EEEEEE"
+        :linesWidth="1"
         :lineLinked="true"
-        :lineOpacity="1"
+        :lineOpacity="0"
         :linesDistance="150"
-        :moveSpeed="2"
+        :moveSpeed="3"
         :hoverEffect="true"
         hoverMode="grab"
-        :clickEffect="true"
-        clickMode="push"
       >
       </vue-particles>
     </div>

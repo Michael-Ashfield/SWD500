@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <vue-particles
-        color="#000000"
+        color="#048ba8"
         :particleOpacity="0.7"
         :particlesNumber="60"
         shapeType="polygon"

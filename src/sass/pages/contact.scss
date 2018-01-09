@@ -1,0 +1,32 @@
+.contact-zone{
+    .details{
+        img{
+            height: 40px;
+            padding: 0px 10px 0px 20px;
+        }
+    }
+    form{
+        #first_name_checkmark, #email_checkmark{
+            display: none;
+            color: red;
+        }
+        #submitted-text{
+            display: none;
+        }
+        input[type=text]{
+            border: 1px solid black;
+            border-radius: 3px;
+            width:30%;
+            height: 20px;
+        }
+        .button {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 15px 42px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+    }
+}

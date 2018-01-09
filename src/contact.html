@@ -8,7 +8,7 @@
         <title>Ashfield Web Dev</title>
     </head>
     <body>
-        <div class="wrapper about">
+        <div class="wrapper contact">
             <div class="row">
                 <header class="header">
                     <a href="index.html">
@@ -25,26 +25,37 @@
             </div>
             
             <div class="row">
-                <a href="portfolio.html" class="lcol-1 mcol-1 scol-1 loffset-4 moffset-2">Portflio</a>
+                <a href="services.html" class="lcol-1 mcol-1 scol-1 loffset-4 moffset-2">Services</a>
                 <a href="skills.html" class="lcol-1 mcol-1 scol-1">Skills</a>
-                <a href="contact.html" class="lcol-1 mcol-1 scol-1">Contact</a>
-                <a href="services.html" class="lcol-1 mcol-1 scol-1">Services</a>
+                <a href="portfolio.html" class="lcol-1 mcol-1 scol-1">Portfolio</a>
+                <a href="services.html" class="lcol-1 mcol-1 scol-1">About</a>
             </div>
             
             <hr />
-            
-            <div class="row about-zone">
-                <img src="images/meimg.jpg" alt="Michael Ashfield" class="lcol-3 mcol-2 scol-4 loffset-3 moffset-1" />
-                <div class="about-text lcol-3 mcol-4 scol-4">
-                    <h2>Michael Ashfield</h2>
-                    <p>Web developer</p>
-                    <p>Year 2 student at Southampton Solent University</p>
-                    <p>I am a motivated web developer who is keen t make an impact in the webdesign community in 
-                    Great Britain. I am constantly keeping up with changes in the industry and learning 
-                    new techniques as they are developed and introduced to modern browsers.</p>
+            <div class="contact-zone">
+                <div class="row">
+                    <div class="details lcol-6 mcol-6 scol-4 loffset-3 moffset-1">
+                        <p><img src="images/phone.svg" alt="Phone" />01454 854 136
+                        <img src="images/email.svg" alt="email" />Michaelashfield1@gmail.com</p>
+                    </div>
                 </div>
+                <div class="row">
+                    <hr class="lcol-8 mcol-6 scol-2 loffset-2 moffset-1 soffset-1"/>
+                </div>
+                <div class="row">
+                    <form id="contact_form">
+                        <p>Email* <br />
+                            <input type="text" name="email"/><span id="email_checkmark">&#10004;</span>
+                        </p>
+                         <p>Name* <br />
+                            <input type="text" name="first_name"/><span id="first_name_checkmark">&#10004;</span>
+                        </p>
+                        <textarea rows="4" cols="50"></textarea>
+                        <p><input type="submit" value="Submit" name="submit" class="button"/></p>
+                        <h2 id="submitted-text">Submitted</h2>
+                    </form>
+                </div>   
             </div>
-            
             
             <img src="images/mountain.svg" alt="Ashfield web design" id="background-img">
 
