@@ -12,7 +12,6 @@ This is a site for Ashfield web development, a personal portfolio site for mysel
 
 
 ## Known issues
-* JS needs cleaning up.
 * Facebook doesn't link (Intended).
 
 
