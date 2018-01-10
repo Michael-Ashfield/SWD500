@@ -8,7 +8,7 @@ This is a site for Ashfield web development, a personal portfolio site for mysel
 * Testing was reduced to not ask about each individual page but the site overall doe to each page being too speific, if the user has issue they may awnser it in one question.
 * Birds were removed from the mountain svg.
 * The form layout was changed to better suit responcive design and to be more clear as to what is needed.
-* The SASS structure was changed to fit what was actually needed in the end, undeeded folders were removed
+* The SASS structure was changed to fit what was actually needed in the end, undeeded folders were removed.
 
 
 ## Known issues
