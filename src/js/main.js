@@ -12,7 +12,7 @@ import '../portfolio.html';
 import '../contact.html';
 
 //
-import Vue from 'vue'
+import Vue from 'vue' //Lets me use vue if I need to
 
 /////////////////////////////////////////////////////////////////////////////
 
