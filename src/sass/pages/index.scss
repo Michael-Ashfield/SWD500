@@ -7,14 +7,13 @@ body {
     margin: 0 auto;
     min-height: 100%;
     height: 100%;
-    
-
 
     .header{
         padding-top: 20px;
         img{
             width: 150px;
             padding-left: 50px;
+            float: right;
         }
     }
     .soc-link{
@@ -22,6 +21,7 @@ body {
         height: 50px;
     }
     
+    /*Gradient for horizontle rule */
     hr{
         border: 0;
         height: 1px;
@@ -37,18 +37,20 @@ body {
         overflow:hidden;
     }
     
-    li{
-        list-style: none;
-        padding-bottom: 40px;
-    }
     .nav-item{
         height: 80vh;
         margin: auto;
         padding-top: 15%;
     }
-
+    
     a{
         text-decoration: none;
         color: inherit;
+    }
+    
+    /*Specific page style */
+    li{
+        list-style: none;
+        padding-bottom: 40px;
     }
 }
