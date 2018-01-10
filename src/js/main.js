@@ -13,19 +13,6 @@ import '../contact.html';
 
 //
 import Vue from 'vue'
-import VueParticles from 'vue-particles'
-Vue.use(VueParticles)
-
-import helloComponent from './components/hello.vue';
-Vue.component('hello-component', helloComponent);
-
-import portfolioAtom from './components/portfolio.vue';
-Vue.component('portfolio-atom', portfolioAtom);
-
-const app = new Vue({
-    el: '#app',
-});
-
 
 /////////////////////////////////////////////////////////////////////////////
 
@@ -40,7 +27,7 @@ form.addEventListener("submit", validateForm)
 
 
 
-function check_first(){ //first name must not be empty and must not contain numbers
+function check_first(){ //first name must not be empty
     var empty = false;
     console.log("first name checking");
     document.getElementById("first_name_checkmark").style.display = "inline"; //only display tick when interacted with
@@ -109,7 +96,7 @@ function check_email(){ //email must not be empty and must include an @ sign
 function validateForm(event){
     event.preventDefault(); //Prevent submit
     if(good_First == true && good_email == true){ //All forms must be valid to submit
-        console.log("Form valid, submit"); //Form has noweher to submit to, but it would submit if this site was full
+        console.log("Form valid, submit"); //Form has nowhere to submit to, but it would submit if this site was full
         document.getElementById("submitted-text").style.display = "inline";
     }
     else{
